@@ -5,7 +5,7 @@ ruby '2.5.1'
 gem 'activeadmin', '1.0.0'
 gem 'delayed_job_active_record', '~> 4.1.2'
 gem 'devise'
-gem 'pg'
+gem 'pg', '~> 0.11'
 gem 'rails', '4.2.10'
 gem 'unicorn'
 
@@ -42,7 +42,6 @@ end
 # gem 'capistrano'
 
 group :production do
-  gem 'pg'
   gem 'rails_12factor'
   gem 'rails_serve_static_assets'
 end
