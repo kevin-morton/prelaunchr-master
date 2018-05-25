@@ -9,6 +9,9 @@ gem 'pg'
 gem 'rails', '4.2.10'
 gem 'unicorn'
 
+# For getting the app to precompile
+# from http://www.viralrails.com/?p=32
+gem 'therubyracer'
 
 # Gems used only for assets and not required
 # in production environments by default.
